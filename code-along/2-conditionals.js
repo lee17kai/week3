@@ -25,3 +25,6 @@ let randomNumber = getRandomInt(10)
 //Show the random integer in the console
 console.log(`The random number is ${randomNumber}`)
 
+//Show the user's number
+console.log(`You entered ${input}`)
+
