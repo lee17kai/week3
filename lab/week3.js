@@ -92,8 +92,8 @@ document.addEventListener('DOMContentLoaded', async function() {
   }
   // Create a sentence that displays the emoji along with the description 
   // of the promotion
-  let sentence = `${promotionImage} ${promotionRandom.description}`)
-  
+  let sentence = `${promotionImage} ${promotionRandom.description}`
+
   // Write the sentence to the JavaScript console
   console.log(sentence)
 
