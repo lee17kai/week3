@@ -35,6 +35,6 @@ console.log(`Location: ${profileLocation.city}, ${profileLocation.state}`)
 
 // Write the 3 statuses from the "timeline" to the JavaScript console
 console.log(`Timeline: `)
-console.log(profile.timeline.[0])
-console.log(profile.timeline.[1])
-console.log(profile.timeline.[2])
+console.log(profile.timeline[0])
+console.log(profile.timeline[1])
+console.log(profile.timeline[2])
