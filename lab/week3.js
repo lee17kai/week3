@@ -53,12 +53,20 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // Repeat for the 2nd and 3rd products
   // Store the second product in memory
+  let product2 = data.products[1]
 
   // Write the product to the JavaScript console, on three separate lines
+  console.log(`Name: ${product2.name}`)
+  console.log(`Price: ${product2.price}`)
+  console.log(`Description: ${product2.description}`)
   
   // Store the third product in memory
+  let product3 = data.products[2]
 
   // Write the product to the JavaScript console, on three separate lines
+  console.log(`Name: ${product3.name}`)
+  console.log(`Price: ${product3.price}`)
+  console.log(`Description: ${product3.description}`)
 
   // PART 3
   // Get a random integer between 1 and 10
