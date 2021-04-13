@@ -33,9 +33,11 @@ document.addEventListener('DOMContentLoaded', async function() {
   // Figure out how products there are, and store that number in memory
   let numProducts = data.products.length
   console.log (`The number of products is ${numProducts}`)
-  
-  // Figure out how promotions there are, and store that number in memory
 
+  // Figure out how promotions there are, and store that number in memory
+  let numPromos = data.promotions.length
+  console.log (`The number of promotions is ${numPromos}`)
+  
   // Write the number of products to the JavaScript console
 
   // Write the number of promotions to the JavaScript console
