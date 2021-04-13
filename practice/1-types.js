@@ -10,7 +10,7 @@ function getRandomInt(max) {
 
 // Store the value of the first die in memory. Write it out to the console in a human-readable format.
 let roll1 = getRandomInt(6)
-console.log(`First roll =  ${roll1})
+console.log(`First roll =  ${roll1}`)
 
 // Store the value of the second die in memory. Write it out to the console in a human-readable format.
 let roll2 = getRandomInt(6)

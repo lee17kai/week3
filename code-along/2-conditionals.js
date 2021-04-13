@@ -18,3 +18,10 @@ function getRandomInt(max) {
 let input = prompt(`Enter a number between 1 and 10`)
 
 // Write the recipe (algorithm) in the comments. Then, write the code.
+
+// Store random integer in memory
+let randomNumber = getRandomInt(10)
+
+//Show the random integer in the console
+console.log(`The random number is ${randomNumber}`)
+
