@@ -12,8 +12,8 @@ let profile = {
     name: `Kai`,
     location: {
         city: `Evanston`,
-        state: `Illinois`,
-    }
+        state: `Illinois`
+    },
     timeline: [`Middlebury`, `Houston`, `Kellogg`]
 }
 console.log(profile)
