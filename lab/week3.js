@@ -70,17 +70,30 @@ document.addEventListener('DOMContentLoaded', async function() {
 
   // PART 3
   // Get a random integer between 1 and 10
+  let randNum = getRandomInt(data.promotions.length)
 
   // Subtract one from that random integer because Arrays are zero-based
+  let arrayNum = randNum - 1
 
   // Use the random integer to grab a promotion from the Array of promotions
   // and store it in memory
+  let promotionRandom = data.promotions[arrayNum]
 
   // Figure out which emoji should be displayed, store it in memory
-
+  let promotionImage = `👻`
+  if(promotionRandom.type == `discount`){
+    promotionImage = `🤑`
+  }
+  else if(promotionRandom.type == `shipping`) {
+    promotionImage = `🚛`
+  }
+  else {
+    promotionImage = `🏆`
+  }
   // Create a sentence that displays the emoji along with the description 
   // of the promotion
 
+  console.log(`${promotionImage} ${promotionRandom.description}`)
   // Write the sentence to the JavaScript console
 
   // 🔥 YOUR CODE ENDS HERE 🔥
