@@ -10,7 +10,7 @@
 // Store a simple social media profile in memory
 let profile = {
     name: `Kai`,
-    location: {}
+    location: {
         city: `Evanston`,
         state: `Illinois`
     }
