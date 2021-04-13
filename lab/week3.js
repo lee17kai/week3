@@ -32,20 +32,24 @@ document.addEventListener('DOMContentLoaded', async function() {
   // PART 1
   // Figure out how products there are, and store that number in memory
   let numProducts = data.products.length
-  console.log (`The number of products is ${numProducts}`)
 
   // Figure out how promotions there are, and store that number in memory
   let numPromos = data.promotions.length
-  console.log (`The number of promotions is ${numPromos}`)
-  
   // Write the number of products to the JavaScript console
+  console.log (`The number of products is ${numProducts}`)
 
   // Write the number of promotions to the JavaScript console
+  console.log (`The number of promotions is ${numPromos}`)
+
 
   // PART 2
   // Store the first product in memory
+  let product1 = data.products[0]
 
   // Write the first product to the JavaScript console, on three separate lines
+  console.log(`Name: ${product1.name}`)
+  console.log(`Price: ${product1.price}`)
+  console.log(`Description: ${product1.description}`)
 
   // Repeat for the 2nd and 3rd products
   // Store the second product in memory
