@@ -31,8 +31,15 @@ console.log(`You entered ${input}`)
 // If user doesn't enter number between 1-10, display error
 if (input < 1) {
   console.log(`You're really bad at following instructions...`)
+} else if (input > 10) {
+  console.log(`You're really bad at following instructions...`)
 }
 
 //If user guessed the number, display YOU WIN!
-
+else if (input == randomNumber) {
+  console.log(`YOU WIN!!!!`)
+}
 //If user did not guess the number, display SORRY!
+else {
+  console.log(`SORRY! :(`)
+}
