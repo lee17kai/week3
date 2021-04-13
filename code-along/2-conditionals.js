@@ -28,3 +28,11 @@ console.log(`The random number is ${randomNumber}`)
 //Show the user's number
 console.log(`You entered ${input}`)
 
+// If user doesn't enter number between 1-10, display error
+if (input < 1) {
+  console.log(`You're really bad at following instructions...`)
+}
+
+//If user guessed the number, display YOU WIN!
+
+//If user did not guess the number, display SORRY!
